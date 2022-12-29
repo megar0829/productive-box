@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update gist
-        uses: maxam2017/productive-box@master
+        uses: megar0829/productive-box@master
         env:
           GH_TOKEN: ${{ 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 }}
           GIST_ID: ${{164b96db546b7b90dbeda850c723fca6 }}
